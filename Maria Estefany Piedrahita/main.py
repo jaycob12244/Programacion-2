@@ -1,9 +1,11 @@
+import os
+
 IDs = input("Ingrese ID del servidor: ")
 Carga = float(input("Ingrese carga de CPU: "))
 Temp = float(input("Ingrese Temperatura del Rack en celsius: "))
 Ce=float(input("ingrese el consumo de energia en watts: "))
 
-
+os.system("cls")
 if Ce > 400:
     exceso = Ce - 400
     print("El exceso de energia que se está consumiendo es de:",exceso)
