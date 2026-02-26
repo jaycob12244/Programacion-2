@@ -20,7 +20,7 @@ print("Servidor:", servidor_id)
 print("Carga CPU:", cpu, "%")
 print("Temperatura:", temperatura, "°C")
 print("Consumo Energía:", energia, "W")
-print("-----------------------------------")
+print("-----------------------------------")    
 
 # Control de Energía
 if energia > 400:
